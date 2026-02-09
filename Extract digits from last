@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Extract digits from last 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter number:-");
+		int num=sc.nextInt();
+		while (num>0)
+		{
+			int ld=num%10;
+			System.out.println(ld);
+			num=num/10;
+		}
+		
+	}
+}
